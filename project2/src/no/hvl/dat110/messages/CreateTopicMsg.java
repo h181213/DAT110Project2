@@ -22,6 +22,6 @@ public class CreateTopicMsg extends Message {
 	
 	@Override
 	public String toString() {
-		return getType() + "topic= " + topic + '\'' + "user: " + getUser() + '}';
+		return getType() + "topic= '" + topic + '\'' + "user: " + getUser() + '}';
 	}
 }
